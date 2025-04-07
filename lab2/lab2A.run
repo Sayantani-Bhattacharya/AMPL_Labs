@@ -1,0 +1,11 @@
+reset;
+option solver gurobi;
+
+model lab2A.mod;
+data lab2A.dat;
+
+solve;
+
+display x, Total_Profit > lab2A.out;
+display Total_Profit;
+

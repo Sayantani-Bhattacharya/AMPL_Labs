@@ -1,0 +1,29 @@
+set I := 1 2;
+set J := A B C;
+set A := (1,A) (1,B) (2,B) (2,C);
+
+# Parameters
+
+param c :=
+1 5
+2 4;
+
+param d := 
+A 30
+B 40
+C 20;
+
+# Matrix way of defining params
+# param t :=
+#  A B C
+# 1 
+
+param t :=
+[1,A] 2      # or by multi-index basically t[i,j] = 3: cant use both together though.
+# 1 A 2      #instead of using matrix, you can define teh data by tuple
+[1,B] 3
+[2,B] 1
+[2,C] 4;
+
+
+param total_value;

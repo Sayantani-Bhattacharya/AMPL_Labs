@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model lab2B.mod;
+data lab2B.dat;
+
+solve;
+
+display x, s, total_value > lab2B.out;
+display total_value;

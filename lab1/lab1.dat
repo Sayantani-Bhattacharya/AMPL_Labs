@@ -1,0 +1,17 @@
+param profit_x:= 3;
+param profit_y:= 2;
+
+param labour_x:=2;
+param labour_y:=1;
+param machine_x:=1;
+param machine_y:=1;
+
+param total_labour:=10;
+param total_machine:=8;
+
+
+
+
+
+
+
