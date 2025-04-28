@@ -1,0 +1,23 @@
+x :=
+H1 C1 Doodads   150
+H1 C1 Gadgets   100
+H1 C1 Widgets   250
+H1 C2 Doodads     0
+H1 C2 Gadgets   200
+H1 C2 Widgets     0
+H2 C2 Doodads    70
+H2 C2 Gadgets    50
+H2 C2 Widgets   100
+S1 H1 Doodads   100
+S1 H1 Gadgets   225
+S1 H1 Widgets   200
+S2 H1 Doodads    50
+S2 H1 Gadgets    75
+S2 H1 Widgets    50
+S2 H2 Doodads    70
+S2 H2 Gadgets    50
+S2 H2 Widgets   100
+;
+
+Total_Cost = 6355
+

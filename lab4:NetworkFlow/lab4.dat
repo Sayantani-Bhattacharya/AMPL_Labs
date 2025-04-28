@@ -1,0 +1,38 @@
+set N := A, B, C, D, E, F, G, H, I;
+
+set A := (A,B) (A,C) (B,D) (B,C) (B,E) (C,E) (C,F)
+           (C,D) (D,E) (D,G) (E,G) (E,H)(F,H) (F,E) (F,G)
+             (G,I) (H,I) (H,G);
+
+
+param capacity:=
+A B 15
+A C 10
+B D 12
+B C 6
+B E 10
+C E 8
+C F 5
+C D 5
+D E 5
+D G 15
+E G 10
+E H 5
+F H 10
+F E 4
+F G 6
+G I 20
+H I 10
+H G 3;
+
+param supply:=
+A 20  
+B 10
+C 0
+D 0
+E 0
+F 0
+G -10
+H 0
+I -20;
+

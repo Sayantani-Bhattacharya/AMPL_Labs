@@ -1,0 +1,17 @@
+x :=
+S1 C1 W1   1
+S1 C1 W2   0
+S1 C2 W1   0
+S1 C2 W2   1
+S1 C3 W1   0
+S1 C3 W2   0
+S2 C1 W1   0
+S2 C1 W2   0
+S2 C2 W1   0
+S2 C2 W2   0
+S2 C3 W1   1
+S2 C3 W2   0
+;
+
+Total_Cost = 20
+

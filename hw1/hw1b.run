@@ -1,0 +1,9 @@
+reset;
+option solver gurobi;
+ 
+model hw1b.mod;
+data hw1b.dat;
+
+solve;
+
+display EV_quantity, GC_quantity, H_quantity, total_profit;

@@ -1,0 +1,8 @@
+reset;
+option solver gurobi;
+
+model hw2_1c.mod;
+data hw2_1c.dat;
+solve;
+display x, obj > hw2_1c.out;
+display obj;

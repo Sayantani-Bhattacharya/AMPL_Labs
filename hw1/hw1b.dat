@@ -1,0 +1,21 @@
+param selling_price_EV := 25000;
+param selling_price_GC := 18000;
+param selling_price_H := 20000;
+
+param wiring_cap_EV := 20;
+param wiring_cap_GC := 10;
+param wiring_cap_H := 10;
+
+
+param labour_EV := 10;
+param labour_GC := 10;
+param labour_H := 10;
+
+param wiring_cap := 1000;
+param labour_cap := 800;
+
+
+
+
+
+

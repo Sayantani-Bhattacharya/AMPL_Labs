@@ -1,0 +1,23 @@
+x :=
+1 Basic      0
+1 Premium    0
+1 Standard   0
+2 Basic      0.004
+2 Premium    0.36
+2 Standard   0.112
+3 Basic      0
+3 Premium    0
+3 Standard   0
+4 Basic      0.74
+4 Premium    0.6
+4 Standard   0.72
+5 Basic      0
+5 Premium    0
+5 Standard   0
+6 Basic      0
+6 Premium    0
+6 Standard   0
+;
+
+Total_Cost = 5.3888
+

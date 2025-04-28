@@ -1,0 +1,31 @@
+# apron, term, cargo, access
+set I := i1, i2, i3, i4;
+# extension, dry_pond, along_roads, parking, fire_station, industrial_park, perimeter_road
+set J := j1, j2, j3, j4, j5, j6, j7;
+
+param req :=
+j1 247
+j2 394
+j3 265
+j4 105
+j5 90
+j6 85
+j7 145;
+
+param avail :=
+i1 660
+i2 301
+i3 271
+i4 99;
+
+param dist(tr):
+   i1 i2 i3 i4 :=
+j1  26 28 20 26
+j2 12 14 26 10
+j3 10 12 20 4
+j4 18 20 2 16
+j5 11 13 6 24
+j6 8 10 22 14
+j7 20 22 18 21;
+
+

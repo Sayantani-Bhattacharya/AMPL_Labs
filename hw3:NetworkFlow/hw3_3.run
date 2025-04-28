@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw3_3.mod;
+data hw3_3.dat;
+
+solve;
+
+display x, Total_Cost > hw3_3.out;
+display Total_Cost;

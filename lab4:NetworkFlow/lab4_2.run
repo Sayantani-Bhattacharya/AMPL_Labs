@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model lab4_2.mod;
+data lab4_2.dat;
+
+solve;
+
+display x, total_cost > lab4_2.out;
+display total_cost;

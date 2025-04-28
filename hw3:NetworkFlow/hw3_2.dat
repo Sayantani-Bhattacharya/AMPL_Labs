@@ -1,0 +1,40 @@
+set I := SAUDI, NIGERIA, VENEZUELA;
+set J := HOUSTON, ROTTERDAM;
+
+param cost:
+   HOUSTON ROTTERDAM :=
+SAUDI      50     7
+NIGERIA  60  4
+VENEZUELA  40  6;
+
+
+param supply:=
+SAUDI  50000
+NIGERIA  40000
+VENEZUELA  30000;
+
+param demand:=
+HOUSTON  60000
+ROTTERDAM  50000;
+
+param sulfur=
+SAUDI 1.8
+NIGERIA 0.5
+VENEZUELA 2.5;
+
+param apiG:=
+SAUDI  32
+NIGERIA  35
+VENEZUELA  28;
+
+param max_req_sulfur:=
+HOUSTON  1.8
+ROTTERDAM  2.0;
+
+param min_req_apiG:=
+HOUSTON  30
+ROTTERDAM  31;
+
+
+
+

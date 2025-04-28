@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw3_4.mod;
+data hw3_4.dat;
+
+solve;
+
+display x, Total_Flow > hw3_4.out;
+display Total_Flow;

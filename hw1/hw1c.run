@@ -1,0 +1,9 @@
+reset;
+option solver gurobi;
+ 
+model hw1c.mod;
+data hw1c.dat;
+
+solve;
+
+display x_p1, x_p2, x_p3, x_p4, x_p5, total_NPV;

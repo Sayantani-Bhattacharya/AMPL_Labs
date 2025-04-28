@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw1d.mod;
+data hw1d.dat;
+
+solve;
+
+
+display x, total_cost;

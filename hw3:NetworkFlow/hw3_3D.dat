@@ -1,0 +1,33 @@
+set I := S1, S2, H1, H2, C1, C2;
+set Commodity := Widgets, Gadgets, Doodads;
+
+set ARCS :=
+(S1, H1), (S2,H1), (S2, H2), (H1, C1),
+(H1, C2), (H2, C2);
+
+param capacity:=
+S1 H1  1000000
+S2 H1  1000000 
+S2 H2 800 
+H1 C1 500
+H1 C2 700 
+H2 C2 400;
+
+param cost:
+        Widgets Gadgets Doodads:=
+S1 H1   2 3 1
+S2 H1   4 2 3 
+S2 H2   3 5 2  
+H1 C1   6 4 5
+H1 C2   5 3 4  
+H2 C2  3 6 2;
+
+param supply:
+    Widgets Gadgets Doodads:=
+S1 200 225 100
+S2 150 125 120
+H1 0 0 0 
+H2 0 0 0
+C1 -250 -100 -150
+C2 -100 -250 -70;
+

@@ -1,0 +1,21 @@
+x :=
+i1 j1   1
+i1 j2   0
+i1 j3   0
+i1 j4   1
+i2 j1   0
+i2 j2   1
+i2 j3   0
+i2 j4   1
+i3 j1   1
+i3 j2   0
+i3 j3   1
+i3 j4   0
+i4 j1   0
+i4 j2   1
+i4 j3   1
+i4 j4   0
+;
+
+Total_Rating = 637
+

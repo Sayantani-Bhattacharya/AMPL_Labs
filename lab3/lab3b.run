@@ -1,0 +1,11 @@
+reset;
+option solver gurobi;
+
+model lab3b.mod;
+data lab3b.dat;
+
+solve;
+
+display x, Total_Cost > lab3b.out;
+display Total_Cost;
+

@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model lab4.mod;
+data lab4.dat;
+
+solve;
+
+display total_flow > lab4.out;
+display total_flow;

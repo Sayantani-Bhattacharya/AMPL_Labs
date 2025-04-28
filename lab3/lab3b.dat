@@ -1,0 +1,28 @@
+set SUPPLIER := S1 S2;
+set CUSTOMER := C1 C2 C3;
+set WAREHOUSE := W1 W2;
+
+param cost := 
+
+[S1, *, *]:
+        W1 W2:=
+    C1  8  11
+    C2  7  6
+    C3  9  10
+
+[S2, *, *]:
+        W1 W2:=
+    C1  8  11
+    C2  7  6
+    C3  6  7;
+
+param supplier_limit :=
+S1 2
+S2 2;
+
+param capacity :=
+W1 2
+W2 2;
+
+
+              

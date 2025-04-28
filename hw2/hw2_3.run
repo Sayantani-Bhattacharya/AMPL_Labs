@@ -1,0 +1,11 @@
+reset;
+option solver gurobi;
+
+model hw2_3.mod;
+data hw2_3.dat;
+
+solve;
+
+display x, dist_total > hw2_3.out;
+display dist_total;
+

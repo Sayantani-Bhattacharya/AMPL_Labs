@@ -1,0 +1,31 @@
+param cash_req_y0_avail := 25;
+param cash_req_y1_avail := 10;
+param cash_req_y2_avail := 5;
+
+param NPV_p1 := 45;
+param NPV_p2 := 90;
+param NPV_p3 := 58;
+param NPV_p4 := 50;
+param NPV_p5 := 95;
+
+param y0_p1 := 18;
+param y1_p1 := 5;
+param y2_p1 := 3;
+
+param y0_p2 := 47;
+param y1_p2 := 8;
+param y2_p2 := 6;
+
+param y0_p3 := 25;
+param y1_p3 := 5;
+param y2_p3 := 10;
+
+param y0_p4 := 3;
+param y1_p4 := 15;
+param y2_p4 := 10;
+
+param y0_p5 := 23;
+param y1_p5 := 22;
+param y2_p5 := 12;
+
+param total_NPV;

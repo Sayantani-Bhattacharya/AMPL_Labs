@@ -1,0 +1,9 @@
+reset;
+option solver gurobi;
+
+model hw2_4.mod;
+data hw2_4.dat;
+
+solve;
+display x, Total_Rating > hw2_4.out;
+display Total_Rating;

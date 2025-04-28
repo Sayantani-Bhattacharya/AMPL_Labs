@@ -1,0 +1,11 @@
+reset;
+option solver gurobi;
+
+model hw2_2.mod;
+data hw2_2.dat;
+
+solve;
+
+display x, y, Total_Profit > hw2_2.out;
+display Total_Profit;
+
