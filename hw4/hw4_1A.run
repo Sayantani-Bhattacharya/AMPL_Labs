@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw4_1A.mod;
+data hw4_1A.dat;
+
+solve;
+
+display x, Total_Gain > hw4_1A.out;
+display Total_Gain;

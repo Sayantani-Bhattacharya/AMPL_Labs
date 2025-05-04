@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw4_2C.mod;
+data hw4_2C.dat;
+
+solve;
+
+display x, y, Total_Cost > hw4_2C.out;
+display Total_Cost;
