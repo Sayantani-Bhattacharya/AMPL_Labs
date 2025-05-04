@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw4_3.mod;
+data hw4_3.dat;
+
+solve;
+
+display x, Total_Preferences > hw4_3.out;
+display Total_Preferences;

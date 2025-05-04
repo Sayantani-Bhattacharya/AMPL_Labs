@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw4_4.mod;
+data hw4_4.dat;
+
+solve;
+
+display x, Total_Completion_Time_weighted > hw4_4.out;
+display Total_Completion_Time_weighted;
