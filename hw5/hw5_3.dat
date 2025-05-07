@@ -1,0 +1,31 @@
+set ITEMS:= 1,2,3;
+set MODES:= 1,2,3,4,5;
+
+param demand:=
+1 50
+2 70
+3 40;
+
+param deadline:=
+1 100
+2 120
+3 90;
+
+param penalty:=
+1 1000
+2 800
+3 1200;
+
+param M = 2000;
+
+param cost:
+  1 2 3 4 5 :=
+1 5 8 4 7 6 
+2 6 7 5 8 7 
+3 5 9 4 6 5;
+
+param shipping_time:
+  1 2 3 4 5:=
+1 20 15 25 18 22
+2 19 14 24 17 20
+3 21 13 23 16 19;

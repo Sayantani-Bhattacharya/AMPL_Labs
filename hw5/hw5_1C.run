@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw5_1C.mod;
+data hw5_1C.dat;
+
+solve;
+
+display x,y, Cost > hw5_1C.out;
+display Cost;

@@ -1,0 +1,9 @@
+set ZONES:= 1,2,3,4,5,6;
+set NODES:= A,B,C,D,E,F,G,H,I,J;
+
+set ARC:= (A,I),(I,A),(A, B),(B,A),(A, C),(C,A),(A, D),(D,A),
+(A, E),(E,A),(A, F),(F,A),(B, I),(I,B),(B, J),(J,B),(B, C),(C,B),
+(B, D),(D,B),(B, E),(E,B),(B, F),(F,B),(C, I),(I,C),(C, J),(J,C),
+(C, D),(D,C),(C, E),(E,C),(C, F),(F,C),(D, J),(J,D),(D, H),(H,D),
+(D, E),(E,D),(D, G),(G,D),(D, F),(F,D),(E, F),(F,E),(E, H),(H,E),
+(E, G),(G,E),(F, G),(G,F),(G, H),(H,G),(I, J),(J,I);

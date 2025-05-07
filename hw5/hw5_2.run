@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw5_2.mod;
+data hw5_2.dat;
+
+solve;
+
+display x, Size > hw5_2.out;
+display Size;
