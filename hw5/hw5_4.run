@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw5_4.mod;
+data hw5_4.dat;
+
+solve;
+
+display x, y, total_score > hw5_4.out;
+display total_score;
