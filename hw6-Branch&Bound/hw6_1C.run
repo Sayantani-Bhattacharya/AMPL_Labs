@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw6_1C.mod;
+data hw6_1C.dat;
+
+solve;
+
+display x, y, ViolationMax, Penalty1, Penalty2, Cost > hw6_1C.out;
+display Cost;

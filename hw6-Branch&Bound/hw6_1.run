@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+
+model hw6_1.mod;
+data hw6_1.dat;
+
+solve;
+
+display x,y, Cost > hw6_1.out;
+display Cost;

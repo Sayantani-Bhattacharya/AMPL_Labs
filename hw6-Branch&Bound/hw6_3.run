@@ -1,0 +1,9 @@
+reset;
+option solver gurobi;
+
+model hw6_3.mod;
+
+solve;
+
+display x1,x2,x3,x4, Val > hw6_3.out;
+display Val;
